@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+  mysql:
+    image: mysql:5.7
+    container_name: mysql_server
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: Mydatabase1@
+      MYSQL_DATABASE: prgx
